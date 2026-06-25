@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)https://divheer.tistory.com/381 -->
+<html lang="ko" data-phocus-theme="dark"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="preconnect" href="https://t1.daumcdn.net/" crossorigin="">
+<link rel="preconnect" href="https://tistory1.daumcdn.net/" crossorigin="">
+<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+<link rel="preconnect" href="https://fonts.googleapis.com/">
+<link rel="dns-preferch" href="https://t1.daumcdn.net/" crossorigin="">
+<link rel="dns-prefetch" href="https://tistory1.daumcdn.net/" crossorigin="">
+<link rel="dns-prefetch" href="https://img1.daumcdn.net/" crossorigin="">
+
+<script>
+	var UNWANTED_SCRIPTS=["TistoryProfileLayer/script.js","roosevelt_dk_bt.js","owner.js"],UNWANTED_SCRIPT_CONTENTS=["gtag()","switchFold","loadedComments","lightbox.options"],UNWANTED_STYLESHEETS="style/font.css top/font.css TistoryProfileLayer/style.css BusinessLicenseInfo/style.css uselessPMargin.css dialog.css revenue.css".split(" "),ASYNC_SCRIPTS=["tiara.min.js","common.js","kakao.min.js"],LAZY_POST_SCRIPTS=["googletagmanager.com/gtag","comment.js","lightbox-v2.10.0.min.js","reaction-button-container.min.js",
+	"menubar.min.js"],LAZY_POST_STYLESHEETS=["lightbox.min.css","comment.css","postBtn.css"],blockedScripts=[],blockedStylesheets=[],blockedScriptContents=[],mutationObserver=new MutationObserver(function(d){d.forEach(function(e){var a=e.addedNodes[0];if(a&&1===a.nodeType)if("SCRIPT"===a.tagName){var c=a.src;c&&ASYNC_SCRIPTS.some(function(b){return c.includes(b)})?a.async=!0:c&&UNWANTED_SCRIPTS.some(function(b){return c.includes(b)})?a.parentNode.removeChild(a):a.textContent&&UNWANTED_SCRIPT_CONTENTS.some(function(b){return a.textContent.includes(b)})?
+	(a.textContent.includes("gtag")&&blockedScriptContents.push(a.cloneNode(!0)),a.parentNode.removeChild(a)):c&&LAZY_POST_SCRIPTS.some(function(b){return c.includes(b)})&&(blockedScripts.push(a.cloneNode(!0)),a.parentNode.removeChild(a))}else"LINK"===a.tagName&&"stylesheet"===a.rel&&a.href&&(LAZY_POST_STYLESHEETS.some(function(b){return a.href.includes(b)})?(blockedStylesheets.push(a.cloneNode(!0)),a.parentNode.removeChild(a)):UNWANTED_STYLESHEETS.some(function(b){return a.href.includes(b)})&&a.parentNode.removeChild(a))})});
+	mutationObserver.observe(document.documentElement,{childList:!0,subtree:!0});
+</script>
+                                                                
+                <script type="text/javascript">if (!window.T) { window.T = {} }
+window.T.config = {"TOP_SSL_URL":"https://www.tistory.com","PREVIEW":false,"ROLE":"guest","PREV_PAGE":"","NEXT_PAGE":"","BLOG":{"id":5728747,"name":"divheer","title":"매일 작성하는 개발 일기","isDormancy":false,"nickName":"Horang_","status":"open","profileStatus":"normal"},"NEED_COMMENT_LOGIN":false,"COMMENT_LOGIN_CONFIRM_MESSAGE":"","LOGIN_URL":"https://www.tistory.com/auth/login/?redirectUrl=https://divheer.tistory.com/381","DEFAULT_URL":"https://divheer.tistory.com","USER":{"name":null,"homepage":null,"id":0,"profileImage":null},"SUBSCRIPTION":{"status":"none","isConnected":false,"isPending":false,"isWait":false,"isProcessing":false,"isNone":true},"IS_LOGIN":false,"HAS_BLOG":false,"IS_SUPPORT":false,"IS_SCRAPABLE":false,"TOP_URL":"http://www.tistory.com","JOIN_URL":"https://www.tistory.com/member/join","PHASE":"prod","ROLE_GROUP":"visitor"};
+window.T.entryInfo = {"entryId":381,"isAuthor":false,"categoryId":1231180,"categoryLabel":"알고리즘/Baekjoon"};
+window.appInfo = {"domain":"tistory.com","topUrl":"https://www.tistory.com","loginUrl":"https://www.tistory.com/auth/login","logoutUrl":"https://www.tistory.com/auth/logout"};
+window.initData = {};
+
+window.TistoryBlog = {
+    basePath: "",
+    url: "https://divheer.tistory.com",
+    tistoryUrl: "https://divheer.tistory.com",
+    manageUrl: "https://divheer.tistory.com/manage",
+    token: "TYK4lclNq5sGzNV0bZB4vdaA1d3MtrYZkOvC7JUORG0+gVx8yWisQuVA1HOr9NND"
+};
+var servicePath = "";
+var blogURL = "";</script>
+
+                
+                
+                        <!-- BusinessLicenseInfo - START -->
+        
+            
+
+            
+
+        
+        <!-- BusinessLicenseInfo - END -->
+<!-- MetaTag - START -->
+
+<!-- MetaTag - END -->
+
+<!-- System - START -->
+
+<!-- System - END -->
+
+        <!-- GoogleSearchConsole - START -->
+        
+<!-- BEGIN GOOGLE_SITE_VERIFICATION -->
+<meta name="google-site-verification" content="0yS37-1FvLeisn0DqfCFcQtwmdUoLSY7jzL3GRrnpfI">
+<!-- END GOOGLE_SITE_VERIFICATION -->
+
+        <!-- GoogleSearchConsole - END -->
+
+        <!-- TistoryProfileLayer - START -->
+        
+
+
+        <!-- TistoryProfileLayer - END -->
+
+                
+                <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="format-detection" content="telephone=no">
+<script src="./큐_답변_파이썬 Python_files/jquery-3.5.1.min.js.다운로드" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="./큐_답변_파이썬 Python_files/tiara-1.2.0.min.js.다운로드"></script><meta name="referrer" content="always">
+<meta name="google-adsense-platform-account" content="ca-host-pub-9691043933427338">
+<meta name="google-adsense-platform-domain" content="tistory.com">
+<meta name="description" content="문제정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.명령은 총 여섯 가지이다.push X: 정수 X를 큐에 넣는 연산이다.pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.size: 큐에 들어있는 정수의 개수를 출력한다.empty: 큐가 비어있으면 1, 아니면 0을 출력한다.front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다. 입력첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 2,000,000)이 주어진다. 둘째 줄부터 N개..">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://divheer.tistory.com/381">
+<meta property="og.article.author" content="Horang_">
+<meta property="og:site_name" content="매일 작성하는 개발 일기">
+<meta property="og:title" content="[백준] 18258번 큐 2 | 파이썬 Python">
+<meta name="by" content="Horang_">
+<meta property="og:description" content="문제정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.명령은 총 여섯 가지이다.push X: 정수 X를 큐에 넣는 연산이다.pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.size: 큐에 들어있는 정수의 개수를 출력한다.empty: 큐가 비어있으면 1, 아니면 0을 출력한다.front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다. 입력첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 2,000,000)이 주어진다. 둘째 줄부터 N개..">
+<meta property="og:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdvO02v%2FbtsL1igrcYu%2FAAAAAAAAAAAAAAAAAAAAAP4m9N4t2SeaysxZlLjDVKPmshy-6lPWt_ETK6K6Mros%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DMkvyNIiSFG3RCAb%252BlCKiTJYMClI%253D">
+<meta property="article:section" content="&#39;IT 인터넷&#39;">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@TISTORY">
+<meta name="twitter:title" content="[백준] 18258번 큐 2 | 파이썬 Python">
+<meta name="twitter:description" content="문제정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.명령은 총 여섯 가지이다.push X: 정수 X를 큐에 넣는 연산이다.pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.size: 큐에 들어있는 정수의 개수를 출력한다.empty: 큐가 비어있으면 1, 아니면 0을 출력한다.front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다. 입력첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 2,000,000)이 주어진다. 둘째 줄부터 N개..">
+<meta property="twitter:image" content="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdvO02v%2FbtsL1igrcYu%2FAAAAAAAAAAAAAAAAAAAAAP4m9N4t2SeaysxZlLjDVKPmshy-6lPWt_ETK6K6Mros%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DMkvyNIiSFG3RCAb%252BlCKiTJYMClI%253D">
+<meta content="https://divheer.tistory.com/381" property="dg:plink">
+<meta name="plink">
+<meta name="title" content="[백준] 18258번 큐 2 | 파이썬 Python">
+<meta name="article:media_name" content="매일 작성하는 개발 일기">
+<meta property="article:mobile_url" content="https://divheer.tistory.com/m/381">
+<meta property="article:pc_url" content="https://divheer.tistory.com/381">
+<meta property="article:mobile_view_url" content="https://divheer.tistory.com/m/381">
+<meta property="article:pc_view_url" content="https://divheer.tistory.com/381">
+<meta property="article:talk_channel_view_url" content="https://divheer.tistory.com/m/381">
+<meta property="article:pc_service_home" content="https://www.tistory.com">
+<meta property="article:mobile_service_home" content="https://www.tistory.com/m">
+<meta property="article:txid" content="5728747_381">
+<meta property="article:published_time" content="2025-01-27T15:02:23+09:00">
+<meta property="og:regDate" content="20250127030223">
+<meta property="article:modified_time" content="2025-01-27T15:02:23+09:00">
+<script type="module" src="./큐_답변_파이썬 Python_files/index.js.다운로드" defer=""></script>
+<script type="text/javascript" src="./큐_답변_파이썬 Python_files/index-legacy.js.다운로드" defer="" nomodule="true"></script>
+<script type="text/javascript" src="./큐_답변_파이썬 Python_files/polyfills-legacy.js.다운로드" defer="" nomodule="true"></script>
+
+<link rel="stylesheet" type="text/css" href="./큐_답변_파이썬 Python_files/content.css">
+<link rel="stylesheet" type="text/css" href="./큐_답변_파이썬 Python_files/index.css">
+
+<script type="text/javascript">(function() {
+    var tjQuery = jQuery.noConflict(true);
+    window.tjQuery = tjQuery;
+    window.orgjQuery = window.jQuery; window.jQuery = tjQuery;
+    window.jQuery = window.orgjQuery; delete window.orgjQuery;
+})()</script>
+<script type="text/javascript" src="./큐_답변_파이썬 Python_files/base.js.다운로드"></script>
+<script type="text/javascript" src="./큐_답변_파이썬 Python_files/kakao.min.js.다운로드" async=""></script>
+
+                
+	
+	<meta name="title" content="[백준] 18258번 큐 2 | 파이썬 Python">
+	<meta name="description" content="Small Steps make a Big Difference.">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, minimum-scale=1.0, maximum-scale=5.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta content="#0052B3" name="theme-color">
+	<meta content="#0052B3" name="msapplication-navbutton-color">
+	<meta name="naver-site-verification" content="cb96795ead2d762c647813cffb5d6db5d71370ae">
+	<title>[백준] 18258번 큐 2 | 파이썬 Python</title>
+	<link rel="alternate" type="application/rss+xml" title="매일 작성하는 개발 일기" href="https://divheer.tistory.com/rss">
+	<link rel="shortcut icon" href="https://divheer.tistory.com/favicon.ico">
+	<link rel="preload" as="style" href="./큐_답변_파이썬 Python_files/css">
+	<link rel="preload" as="style" href="./큐_답변_파이썬 Python_files/css2">
+	<link rel="preload" as="style" href="./큐_답변_파이썬 Python_files/style.css">
+	<link rel="stylesheet" href="./큐_답변_파이썬 Python_files/css">
+	<link rel="stylesheet" href="./큐_답변_파이썬 Python_files/css2">
+  <link rel="stylesheet" href="./큐_답변_파이썬 Python_files/style.css">
+	<script>
+		window.jQuery = tjQuery;
+		function loadStylesheet(b){return new Promise(function(c,d){var a=document.createElement("link");a.rel="stylesheet";a.href=b;a.addEventListener("load",c);a.addEventListener("error",d);document.head.appendChild(a)})}function loadScript(b){return new Promise(function(c,d){var a=document.createElement("script");a.src=b;a.addEventListener("load",c);a.addEventListener("error",d);document.head.appendChild(a)})};
+	</script>
+	<style>
+		 
+			:root {
+				--main-font: "Noto Sans KR";
+			}
+			body,
+			html {
+				font-family: "Noto Sans KR", system-ui, -apple-system, BlinkMacSystemFont;
+			}
+		
+		
+			:root {
+				--main-color: #3A4954;
+				--color-alpha-90: #3A4954E6;
+				--color-alpha-80: #3A4954CC;
+				--color-alpha-70: #3A4954B3;
+			}
+			body,
+			html {
+				color: #3A4954;
+			}
+		
+	</style>
+
+                
+                
+                
+<link rel="canonical" href="https://divheer.tistory.com/381">
+
+<!-- BEGIN STRUCTURED_DATA -->
+<script type="application/ld+json">
+    {"@context":"http://schema.org","@type":"BlogPosting","mainEntityOfPage":{"@id":"https://divheer.tistory.com/381","name":null},"url":"https://divheer.tistory.com/381","headline":"[백준] 18258번 큐 2 | 파이썬 Python","description":"문제정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.명령은 총 여섯 가지이다.push X: 정수 X를 큐에 넣는 연산이다.pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.size: 큐에 들어있는 정수의 개수를 출력한다.empty: 큐가 비어있으면 1, 아니면 0을 출력한다.front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.&nbsp;입력첫째 줄에 주어지는 명령의 수 N (1 &le; N &le; 2,000,000)이 주어진다. 둘째 줄부터 N개..","author":{"@type":"Person","name":"Horang_","logo":null},"image":{"@type":"ImageObject","url":"https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdvO02v%2FbtsL1igrcYu%2FAAAAAAAAAAAAAAAAAAAAAP4m9N4t2SeaysxZlLjDVKPmshy-6lPWt_ETK6K6Mros%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DMkvyNIiSFG3RCAb%252BlCKiTJYMClI%253D","width":"800px","height":"800px"},"datePublished":"2025-01-27T15:02:23+09:00","dateModified":"2025-01-27T15:02:23+09:00","publisher":{"@type":"Organization","name":"TISTORY","logo":{"@type":"ImageObject","url":"https://t1.daumcdn.net/tistory_admin/static/images/openGraph/opengraph.png","width":"800px","height":"800px"}}}
+</script>
+<!-- END STRUCTURED_DATA -->
+
+
+
+<link rel="stylesheet" type="text/css" href="./큐_답변_파이썬 Python_files/tistory.css">
+<script type="text/javascript" src="./큐_답변_파이썬 Python_files/common.js.다운로드" async=""></script>
+
+                
+                <style>.post-reply .tt-list-reply { display: flex; flex-direction: column-reverse; }.post-reply .tt-list-reply li.tt-item-reply:first-child {order:1}.post-reply .tt-list-reply li.tt-item-reply.rp_general:first-child {order:0}</style><style>.post-reply .tt-comment-cont{ display: flex; flex-direction: column-reverse; } .post-reply .tt-box-total {order:1;}</style><link rel="stylesheet" href="./큐_답변_파이썬 Python_files/vs2015.min.css"><script src="./큐_답변_파이썬 Python_files/highlight.min.js.다운로드"></script><script src="./큐_답변_파이썬 Python_files/highlightjs-line-numbers.min.js.다운로드"></script><style type="text/css">.hljs-ln{border-collapse:collapse}.hljs-ln td{padding:0}.hljs-ln-n:before{content:attr(data-line-number)}</style></head>
+                                <body id="tt-body-page" class="no-scroll">
+                
+                
+	
+		<header>
+			<div id="progress" class="progress-bar" style="width: 23.6272%;">&nbsp;</div>
+			<div id="header_wrap" class="shrink">
+				<div id="header_gnb">
+					<div id="header-title">
+						<a href="https://divheer.tistory.com/">매일 작성하는 개발 일기</a>
+					</div>
+
+					<div id="search-bar">
+						<button class="search-icon" aria-label="search icon" onclick="if (window.getComputedStyle(document.getElementById(&#39;search-input&#39;)).display != &#39;none&#39;) {  window.location.href = &#39;/search&#39; + &#39;/&#39; + looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value = &#39;&#39;;} else { document.getElementById(&#39;search-bar&#39;).classList.add(&#39;active&#39;); document.getElementById(&#39;search-input&#39;).focus();}">
+							<svg width="20" height="20" viewBox="0 0 23 23" xmlns="http://www.w3.org/2000/svg" data-svg="search-icon">
+								<circle fill="none" stroke="#666" stroke-width="1.5" cx="11" cy="11" r="8"></circle>
+								<path fill="none" stroke="#4682B4" stroke-width="1.8" d="M23,23 L20,20 L19.2,19.2"></path>
+							</svg>
+						</button>
+						<input class="input-text" type="text" name="search" value="" id="search-input" onkeypress="if (event.keyCode==13) { try {window.location.href = &#39;/search&#39; + &#39;/&#39; + looseURIEncode(document.getElementsByName(&#39;search&#39;)[0].value);document.getElementsByName(&#39;search&#39;)[0].value = &#39;&#39;;	return false;} catch (e) {} }" placeholder="키워드를 입력하세요.">
+					<button class="search-close-icon" onclick="document.getElementById(&#39;search-bar&#39;).classList.remove(&#39;active&#39;)">x</button>
+					</div>
+					<div id="header-ico">
+						<button class="btn_topMenu" id="btn_topbtn" aria-label="topMenu">					
+							<div class="menu-icon"></div>
+							<div class="menu-icon"></div>
+							<div class="menu-icon"></div>			
+						</button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!--드랍다운 메뉴-->
+		<div class="dropdown-content">
+			<div class="lb-data">
+				<div class="btn_close">
+					<span class="material-icons-outlined close-icon">close</span>
+				</div>
+			</div>
+			<div class="dropdown-profile">
+				<div class="dropdown-profile_bg">
+					<img width="300" height="320" src="https://divheer.tistory.com/381" data-src="https://tistory1.daumcdn.net/tistory/5728747/skin/images/dropdown-profile_bg_green.jpg" alt="프로필 배경">
+				</div>
+				<div class="dropdown-profile_info">
+					<div class="dropdown-profile_info-inner">
+						<a href="https://divheer.tistory.com/">
+							<img width="80" height="80" src="./큐_답변_파이썬 Python_files/5d20f8ecd9684b2ca27e7a84d51c4056" alt="프로필 로고">
+							<p class="dropdown-profile-title"> 매일 작성하는 개발 일기 </p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div id="menubar_wrapper"></div>
+			<div style="border-bottom: 15px solid #f9f9f9;"></div>
+			<div id="dropdown-menu"><ul class="tt_category"><li class=""><a href="https://divheer.tistory.com/category" class="link_tit"> 분류 전체보기 <span class="c_cnt">(594)</span> </a>
+  <ul class="category_list"><li class=""><a href="https://divheer.tistory.com/category/JavaScript" class="link_item"> JavaScript <span class="c_cnt">(39)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/Flutter" class="link_item"> Flutter <span class="c_cnt">(25)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/HTML%20CSS" class="link_item"> HTML CSS <span class="c_cnt">(2)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" class="link_item"> 알고리즘 <span class="c_cnt">(334)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Programmers" class="link_sub_item"> Programmers <span class="c_cnt">(170)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Baekjoon" class="link_sub_item"> Baekjoon <span class="c_cnt">(164)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://divheer.tistory.com/category/CS" class="link_item"> CS <span class="c_cnt">(11)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://divheer.tistory.com/category/CS/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0" class="link_sub_item"> 컴퓨터 구조 <span class="c_cnt">(5)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC" class="link_sub_item"> 네트워크 <span class="c_cnt">(6)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD" class="link_item"> 스파르타코딩클럽 <span class="c_cnt">(166)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD/%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%BA%A0%ED%94%84" class="link_sub_item"> 내일배움캠프 <span class="c_cnt">(152)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD/%EC%9B%B9%EA%B0%9C%EB%B0%9C%20%EC%A2%85%ED%95%A9%EB%B0%98" class="link_sub_item"> 웹개발 종합반 <span class="c_cnt">(9)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD/%EC%95%B1%EA%B0%9C%EB%B0%9C%20%EC%A2%85%ED%95%A9%EB%B0%98" class="link_sub_item"> 앱개발 종합반 <span class="c_cnt">(5)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://divheer.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EA%B8%B0%EB%A1%9D%EC%9E%A5" class="link_item"> 개발 기록장 <span class="c_cnt">(8)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" class="link_item"> 프로젝트 <span class="c_cnt">(3)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%ED%9A%8C%EA%B3%A0" class="link_item"> 회고 <span class="c_cnt">(6)</span> </a></li>
+</ul>
+</li>
+</ul>
+</div>
+			<!--
+			<li><a href="/post"><span class="material-icons-outlined material-icon">mode_edit_outline</span>글작성</a></li>
+			<li><a href=""><span class="material-icons-outlined material-icon">settings</span>환경설정</a></li>
+			-->
+			
+		</div>
+		<div id="wrap">
+			<div id="container">
+				<nav id="gnb">
+					<div class="header-blog-menu">
+						 <ul>
+  <li class="t_menu_home first"><a href="https://divheer.tistory.com/" target="">홈</a></li>
+  <li class="t_menu_category"><a href="https://divheer.tistory.com/category/JavaScript" target="">JavaScript</a></li>
+  <li class="t_menu_category"><a href="https://divheer.tistory.com/category/Flutter" target="">Flutter</a></li>
+  <li class="t_menu_tag"><a href="https://divheer.tistory.com/tag" target="">태그</a></li>
+  <li class="t_menu_guestbook last"><a href="https://divheer.tistory.com/guestbook" target="">방명록</a></li>
+</ul> 				
+					</div>			
+								
+				</nav>
+				<div id="main" role="main" class="sidebarPosition left">			
+					<div id="content" class="show">			
+										
+						          
+              
+	<section class="h-entry">
+		<div class="content-width">
+		
+			
+			
+				<!--본문 헤더-->
+				<header class="hd">
+					<div class="sub-info">
+						<span class="meta-cate">
+							<a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Baekjoon" class="p-category">Baekjoon</a> · 2025. 1. 27. 
+						</span> 
+						
+						<span class="wide-button-wrap">
+							<a href="https://divheer.tistory.com/381#" class="widely-text" id="widen-btn">
+								<span class="material-icons-outlined wide-icon">fullscreen</span>
+								<span>넓게보기</span>
+							</a>
+							<a href="https://divheer.tistory.com/381#" class="widely-text" id="original-btn" style="display: none;">
+								<span class="material-icons-outlined wide-icon">fullscreen_exit</span>
+								<span>원래대로</span>
+							</a>
+						</span>
+					</div>
+					<h1 class="hd-heading">[백준] 18258번 큐 2 | 파이썬 Python</h1>
+				</header>
+				
+				<div class="e-content post-content"><div class="floating-toc-space"><div class="toc-wrap floating"><div class="toc-title"><div class="floating-toc-icon"></div><div class="toc-title-strong">목차</div><div class="toc-close-icon">x</div></div><ul class="toc"><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-0">문제</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-1">입력</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-2">출력</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-3">예제</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-4">나의 풀이1</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-5">나의 풀이2</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-6">참고</a></li></ul></div></div><div class="toc-space"><div class="toc-wrap"><div class="toc-title"><div class="toc-icon"></div><strong>목차</strong></div><ul class="toc"><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-0">문제</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-1">입력</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-2">출력</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-3">예제</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-4">나의 풀이1</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-5">나의 풀이2</a></li><li class="toc-item h2"><a href="https://divheer.tistory.com/381#section-6">참고</a></li></ul></div></div> 
+					            <!-- System - START -->
+
+<!-- System - END -->
+
+            <div class="tt_article_useless_p_margin contents_style"><h2 data-ke-size="size26" id="section-0">문제</h2>
+<p style="background-color: #ffffff; color: #555555; text-align: start;" data-ke-size="size16">정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.</p>
+<p style="background-color: #ffffff; color: #555555; text-align: start;" data-ke-size="size16">명령은 총 여섯 가지이다.</p>
+<ul style="list-style-type: disc; background-color: #ffffff; color: #333333; text-align: start;" data-ke-list-type="disc">
+<li style="color: #555555;">push X: 정수 X를 큐에 넣는 연산이다.</li>
+<li style="color: #555555;">pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.</li>
+<li style="color: #555555;">size: 큐에 들어있는 정수의 개수를 출력한다.</li>
+<li style="color: #555555;">empty: 큐가 비어있으면 1, 아니면 0을 출력한다.</li>
+<li style="color: #555555;">front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.</li>
+<li style="color: #555555;">back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.</li>
+</ul>
+<p data-ke-size="size16">&nbsp;</p>
+<h2 data-ke-size="size26" id="section-1">입력</h2>
+<p data-ke-size="size16"><span style="background-color: #ffffff; color: #555555; text-align: start;">첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 2,000,000)이 주어진다. 둘째 줄부터 N개의 줄에는 명령이 하나씩 주어진다. 주어지는 정수는 1보다 크거나 같고, 100,000보다 작거나 같다. 문제에 나와있지 않은 명령이 주어지는 경우는 없다.</span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<h2 data-ke-size="size26" id="section-2">출력</h2>
+<p data-ke-size="size16"><span style="background-color: #ffffff; color: #555555; text-align: start;">출력해야하는 명령이 주어질 때마다, 한 줄에 하나씩 출력한다.</span></p>
+<p data-ke-size="size16">&nbsp;</p>
+<h2 data-ke-size="size26" id="section-3">예제</h2>
+<p></p><figure class="imageblock alignCenter" data-ke-mobilestyle="widthOrigin" data-origin-width="1470" data-origin-height="655"><span data-url="https://blog.kakaocdn.net/dna/dvO02v/btsL1igrcYu/AAAAAAAAAAAAAAAAAAAAAP4m9N4t2SeaysxZlLjDVKPmshy-6lPWt_ETK6K6Mros/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1782831599&amp;allow_ip=&amp;allow_referer=&amp;signature=MkvyNIiSFG3RCAb%2BlCKiTJYMClI%3D" data-phocus="https://blog.kakaocdn.net/dna/dvO02v/btsL1igrcYu/AAAAAAAAAAAAAAAAAAAAAP4m9N4t2SeaysxZlLjDVKPmshy-6lPWt_ETK6K6Mros/img.png?credential=yqXZFxpELC7KVnFOS48ylbz2pIh7yKj8&amp;expires=1782831599&amp;allow_ip=&amp;allow_referer=&amp;signature=MkvyNIiSFG3RCAb%2BlCKiTJYMClI%3D"><img src="./큐_답변_파이썬 Python_files/img.png" srcset="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdvO02v%2FbtsL1igrcYu%2FAAAAAAAAAAAAAAAAAAAAAP4m9N4t2SeaysxZlLjDVKPmshy-6lPWt_ETK6K6Mros%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DMkvyNIiSFG3RCAb%252BlCKiTJYMClI%253D" onerror="this.onerror=null; this.src=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;; this.srcset=&#39;//t1.daumcdn.net/tistory_admin/static/images/no-image-v1.png&#39;;" loading="lazy" width="1470" height="655" data-origin-width="1470" data-origin-height="655" alt="etc-image-0" data-phocus-index="0"></span></figure>
+<p></p>
+<p data-ke-size="size16">&nbsp;</p>
+<h2 data-ke-size="size26" id="section-4">나의 풀이1</h2>
+<pre id="code_1730879817720" class="python" data-ke-language="python" data-ke-type="codeblock"><code class="hljs language-python"><table class="hljs-ln"><tbody><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="1"><div class="hljs-ln-n" data-line-number="1"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="1"><span class="hljs-keyword">import</span> sys</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="2"><div class="hljs-ln-n" data-line-number="2"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="2"><span class="hljs-built_in">input</span> = sys.stdin.readline</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="3"><div class="hljs-ln-n" data-line-number="3"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="3"> </td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="4"><div class="hljs-ln-n" data-line-number="4"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="4">N = <span class="hljs-built_in">int</span>(<span class="hljs-built_in">input</span>())</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="5"><div class="hljs-ln-n" data-line-number="5"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="5">queue = []</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="6"><div class="hljs-ln-n" data-line-number="6"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="6"> </td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="7"><div class="hljs-ln-n" data-line-number="7"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="7"><span class="hljs-keyword">for</span> _ <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(N):</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="8"><div class="hljs-ln-n" data-line-number="8"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="8">    order = <span class="hljs-built_in">input</span>().strip()</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="9"><div class="hljs-ln-n" data-line-number="9"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="9"> </td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="10"><div class="hljs-ln-n" data-line-number="10"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="10">    <span class="hljs-keyword">if</span> <span class="hljs-string">'push'</span> <span class="hljs-keyword">in</span> order:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="11"><div class="hljs-ln-n" data-line-number="11"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="11">        X = order.split()[<span class="hljs-number">1</span>]</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="12"><div class="hljs-ln-n" data-line-number="12"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="12">        queue.append(<span class="hljs-built_in">int</span>(X))</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="13"><div class="hljs-ln-n" data-line-number="13"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="13">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'pop'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="14"><div class="hljs-ln-n" data-line-number="14"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="14">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="15"><div class="hljs-ln-n" data-line-number="15"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="15">            <span class="hljs-built_in">print</span>(queue.pop(<span class="hljs-number">0</span>))</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="16"><div class="hljs-ln-n" data-line-number="16"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="16">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="17"><div class="hljs-ln-n" data-line-number="17"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="17">            <span class="hljs-built_in">print</span>(-<span class="hljs-number">1</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="18"><div class="hljs-ln-n" data-line-number="18"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="18">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'size'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="19"><div class="hljs-ln-n" data-line-number="19"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="19">        <span class="hljs-built_in">print</span>(<span class="hljs-built_in">len</span>(queue))</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="20"><div class="hljs-ln-n" data-line-number="20"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="20">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'empty'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="21"><div class="hljs-ln-n" data-line-number="21"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="21">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="22"><div class="hljs-ln-n" data-line-number="22"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="22">            <span class="hljs-built_in">print</span>(<span class="hljs-number">0</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="23"><div class="hljs-ln-n" data-line-number="23"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="23">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="24"><div class="hljs-ln-n" data-line-number="24"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="24">            <span class="hljs-built_in">print</span>(<span class="hljs-number">1</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="25"><div class="hljs-ln-n" data-line-number="25"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="25">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'front'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="26"><div class="hljs-ln-n" data-line-number="26"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="26">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="27"><div class="hljs-ln-n" data-line-number="27"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="27">            <span class="hljs-built_in">print</span>(queue[<span class="hljs-number">0</span>])</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="28"><div class="hljs-ln-n" data-line-number="28"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="28">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="29"><div class="hljs-ln-n" data-line-number="29"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="29">            <span class="hljs-built_in">print</span>(-<span class="hljs-number">1</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="30"><div class="hljs-ln-n" data-line-number="30"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="30">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'back'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="31"><div class="hljs-ln-n" data-line-number="31"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="31">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="32"><div class="hljs-ln-n" data-line-number="32"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="32">            <span class="hljs-built_in">print</span>(queue[-<span class="hljs-number">1</span>])</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="33"><div class="hljs-ln-n" data-line-number="33"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="33">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="34"><div class="hljs-ln-n" data-line-number="34"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="34">            <span class="hljs-built_in">print</span>(-<span class="hljs-number">1</span>)</td></tr></tbody></table></code></pre>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li>딱 정석적인 풀이 방법이었는데 <span style="color: #ee2323;"><b>시간 초과</b></span>로 실패해서 어리둥절했다.</li>
+</ul>
+<p data-ke-size="size16">&nbsp;</p>
+<h2 data-ke-size="size26" id="section-5">나의 풀이2</h2>
+<pre id="code_1730879832036" class="python" data-ke-language="python" data-ke-type="codeblock"><code class="hljs language-python"><table class="hljs-ln"><tbody><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="1"><div class="hljs-ln-n" data-line-number="1"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="1"><span class="hljs-keyword">import</span> sys</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="2"><div class="hljs-ln-n" data-line-number="2"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="2"><span class="hljs-keyword">from</span> collections <span class="hljs-keyword">import</span> deque</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="3"><div class="hljs-ln-n" data-line-number="3"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="3"> </td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="4"><div class="hljs-ln-n" data-line-number="4"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="4"><span class="hljs-built_in">input</span> = sys.stdin.readline</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="5"><div class="hljs-ln-n" data-line-number="5"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="5"> </td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="6"><div class="hljs-ln-n" data-line-number="6"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="6">N = <span class="hljs-built_in">int</span>(<span class="hljs-built_in">input</span>())</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="7"><div class="hljs-ln-n" data-line-number="7"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="7">queue = deque()</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="8"><div class="hljs-ln-n" data-line-number="8"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="8"> </td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="9"><div class="hljs-ln-n" data-line-number="9"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="9"><span class="hljs-keyword">for</span> _ <span class="hljs-keyword">in</span> <span class="hljs-built_in">range</span>(N):</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="10"><div class="hljs-ln-n" data-line-number="10"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="10">    order = <span class="hljs-built_in">input</span>().strip()</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="11"><div class="hljs-ln-n" data-line-number="11"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="11"> </td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="12"><div class="hljs-ln-n" data-line-number="12"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="12">    <span class="hljs-keyword">if</span> <span class="hljs-string">'push'</span> <span class="hljs-keyword">in</span> order:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="13"><div class="hljs-ln-n" data-line-number="13"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="13">        X = order.split()[<span class="hljs-number">1</span>]</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="14"><div class="hljs-ln-n" data-line-number="14"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="14">        queue.append(<span class="hljs-built_in">int</span>(X))</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="15"><div class="hljs-ln-n" data-line-number="15"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="15">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'pop'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="16"><div class="hljs-ln-n" data-line-number="16"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="16">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="17"><div class="hljs-ln-n" data-line-number="17"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="17">            <span class="hljs-built_in">print</span>(queue.popleft())</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="18"><div class="hljs-ln-n" data-line-number="18"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="18">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="19"><div class="hljs-ln-n" data-line-number="19"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="19">            <span class="hljs-built_in">print</span>(-<span class="hljs-number">1</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="20"><div class="hljs-ln-n" data-line-number="20"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="20">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'size'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="21"><div class="hljs-ln-n" data-line-number="21"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="21">        <span class="hljs-built_in">print</span>(<span class="hljs-built_in">len</span>(queue))</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="22"><div class="hljs-ln-n" data-line-number="22"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="22">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'empty'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="23"><div class="hljs-ln-n" data-line-number="23"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="23">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="24"><div class="hljs-ln-n" data-line-number="24"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="24">            <span class="hljs-built_in">print</span>(<span class="hljs-number">0</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="25"><div class="hljs-ln-n" data-line-number="25"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="25">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="26"><div class="hljs-ln-n" data-line-number="26"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="26">            <span class="hljs-built_in">print</span>(<span class="hljs-number">1</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="27"><div class="hljs-ln-n" data-line-number="27"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="27">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'front'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="28"><div class="hljs-ln-n" data-line-number="28"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="28">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="29"><div class="hljs-ln-n" data-line-number="29"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="29">            <span class="hljs-built_in">print</span>(queue[<span class="hljs-number">0</span>])</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="30"><div class="hljs-ln-n" data-line-number="30"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="30">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="31"><div class="hljs-ln-n" data-line-number="31"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="31">            <span class="hljs-built_in">print</span>(-<span class="hljs-number">1</span>)</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="32"><div class="hljs-ln-n" data-line-number="32"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="32">    <span class="hljs-keyword">elif</span> order == <span class="hljs-string">'back'</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="33"><div class="hljs-ln-n" data-line-number="33"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="33">        <span class="hljs-keyword">if</span> queue:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="34"><div class="hljs-ln-n" data-line-number="34"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="34">            <span class="hljs-built_in">print</span>(queue[-<span class="hljs-number">1</span>])</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="35"><div class="hljs-ln-n" data-line-number="35"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="35">        <span class="hljs-keyword">else</span>:</td></tr><tr><td class="hljs-ln-line hljs-ln-numbers" data-line-number="36"><div class="hljs-ln-n" data-line-number="36"></div></td><td class="hljs-ln-line hljs-ln-code" data-line-number="36">            <span class="hljs-built_in">print</span>(-<span class="hljs-number">1</span>)</td></tr></tbody></table></code></pre>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li><code class="inline-code">queue</code>를 리스트가 아닌 <code class="inline-code">deque()</code>로 선언한다.
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li><code class="inline-code">deque</code>는 양방향 큐로 <b>양쪽 방향에서 요소를 추가하거나 삭제</b>할 수 있다.</li>
+<li>리스트는 <code class="inline-code">O(N)</code>, 데크는 <code class="inline-code">O(1)</code>의 속도를 가지기 때문에 <b>리스트보다 데크의 속도가 더 빠르다</b>.</li>
+<li><span style="color: #555555; text-align: start;">데크는 특히 <code class="inline-code">append/ remove / push / pop</code> 연산이 자주 일어나는 알고리즘에서 장점이 부각된다.</span></li>
+</ul>
+</li>
+<li><code class="inline-code">deque.pop()</code>에는 인자를 전달할 수 없기 때문에 <code class="inline-code">queue.pop(0)</code>을 <code class="inline-code"> queue.popleft()</code>로 수정했다.&nbsp;</li>
+</ul>
+<p data-ke-size="size16">&nbsp;</p>
+<h2 data-ke-size="size26" id="section-6">참고</h2>
+<ul style="list-style-type: disc;" data-ke-list-type="disc">
+<li><a href="https://codingpractices.tistory.com/entry/Python%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%99%9C-%EB%A6%AC%EC%8A%A4%ED%8A%B8%EB%8C%80%EC%8B%A0-%ED%81%90-%EB%8D%B0%ED%81%AC-deque-%EB%A5%BC-%EC%93%B8%EA%B9%8C" target="_blank" rel="noopener"> <span style="text-align: left;">[Python]파이썬, 왜 리스트대신 큐/ 데크 deque 를 쓸까?</span> </a></li>
+<li><a href="https://wikidocs.net/104977" target="_blank" rel="noopener">앞뒤에서&nbsp;자료를&nbsp;넣고&nbsp;빼려면?&nbsp;―&nbsp;collections.deque</a></li>
+</ul></div>
+            <!-- System - START -->
+
+<!-- System - END -->
+
+<div class="container_postbtn #post_button_group">
+  <div class="postbtn_like"><script>window.ReactionButtonType = 'reaction';
+window.ReactionApiUrl = '//divheer.tistory.com/reaction';
+window.ReactionReqBody = {
+    entryId: 381
+}</script>
+<div class="wrap_btn" id="reaction-381" data-tistory-react-app="Reaction"><button class="btn_post uoc-icon" data-tiara-action-name="공감_클릭"><div class="uoc-icon"><span class="ico_postbtn ico_like">좋아요</span><span class="txt_like uoc-count">공감</span></div></button></div><div class="wrap_btn wrap_btn_share"><button type="button" class="btn_post sns_btn btn_share" aria-expanded="false" data-entry-id="381" data-thumbnail-url="https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&amp;fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2FdvO02v%2FbtsL1igrcYu%2FAAAAAAAAAAAAAAAAAAAAAP4m9N4t2SeaysxZlLjDVKPmshy-6lPWt_ETK6K6Mros%2Fimg.png%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1782831599%26allow_ip%3D%26allow_referer%3D%26signature%3DMkvyNIiSFG3RCAb%252BlCKiTJYMClI%253D" data-title="[백준] 18258번 큐 2 | 파이썬 Python" data-description="문제정수를 저장하는 큐를 구현한 다음, 입력으로 주어지는 명령을 처리하는 프로그램을 작성하시오.명령은 총 여섯 가지이다.push X: 정수 X를 큐에 넣는 연산이다.pop: 큐에서 가장 앞에 있는 정수를 빼고, 그 수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.size: 큐에 들어있는 정수의 개수를 출력한다.empty: 큐가 비어있으면 1, 아니면 0을 출력한다.front: 큐의 가장 앞에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다.back: 큐의 가장 뒤에 있는 정수를 출력한다. 만약 큐에 들어있는 정수가 없는 경우에는 -1을 출력한다. 입력첫째 줄에 주어지는 명령의 수 N (1 ≤ N ≤ 2,000,000)이 주어진다. 둘째 줄부터 N개.." data-profile-image="https://tistory1.daumcdn.net/tistory/5728747/attach/5d20f8ecd9684b2ca27e7a84d51c4056" data-profile-name="Horang_" data-pc-url="https://divheer.tistory.com/381" data-relative-pc-url="/381" data-blog-title="매일 작성하는 개발 일기"><span class="ico_postbtn ico_share">공유하기</span></button>
+  <div class="layer_post" id="tistorySnsLayer"><div class="bundle_post"><button class="btn_mark" data-service="url" data-tiara-action-name="공유_클릭" data-tiara-layer="copy_url" data-tiara-copy="URL복사"><span class="ico_sns ico_url"></span><span class="txt_sns">URL 복사</span></button><button class="btn_mark" data-service="kakaotalk" data-tiara-action-name="공유_클릭" data-tiara-layer="kakao" data-tiara-copy="카카오톡 공유"><span class="ico_sns ico_kt"></span><span class="txt_sns">카카오톡 공유</span></button><button class="btn_mark" data-service="facebook" data-tiara-action-name="공유_클릭" data-tiara-layer="facebook" data-tiara-copy="페이스북 공유"><span class="ico_sns ico_fb"></span><span class="txt_sns">페이스북 공유</span></button><button class="btn_mark" data-service="twitter" data-tiara-action-name="공유_클릭" data-tiara-layer="X" data-tiara-copy="엑스 공유"><span class="ico_sns ico_x"></span><span class="txt_sns">엑스 공유</span></button><span class="ico_postbtn ico_arrbt"></span></div></div>
+</div><div class="wrap_btn wrap_btn_etc" data-entry-id="381" data-entry-visibility="public" data-category-visibility="public"><button type="button" class="btn_post btn_etc2" aria-expanded="false"><span class="ico_postbtn ico_etc">게시글 관리</span></button>
+  <div class="layer_post" id="tistoryEtcLayer"></div>
+</div></div>
+<button type="button" class="btn_menu_toolbar btn_subscription #subscribe" data-blog-id="5728747" data-url="https://divheer.tistory.com/381" data-device="web_pc" data-tiara-action-name="구독 버튼_클릭" data-tiara-copy="구독하기"><em class="txt_state">구독하기</em><strong class="txt_tool_id">매일 작성하는 개발 일기</strong><span class="img_common_tistory ico_check_type1"></span></button><div class="postbtn_ccl" data-ccl-type="2" data-ccl-derive="1">
+    <a href="https://creativecommons.org/licenses/by/4.0/deed.ko" target="_blank" class="link_ccl" rel="license">
+        <span class="bundle_ccl">
+            <span class="ico_postbtn ico_ccl1">저작자표시</span> 
+        </span>
+        <span class="screen_out">(새창열림)</span>
+    </a>
+</div>
+<!--
+<rdf:RDF xmlns="https://web.resource.org/cc/" xmlns:dc="https://purl.org/dc/elements/1.1/" xmlns:rdf="https://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <Work rdf:about="">
+        <license rdf:resource="https://creativecommons.org/licenses/by/4.0/deed.ko" />
+    </Work>
+    <License rdf:about="https://creativecommons.org/licenses/by/4.0/deed.ko">
+        <permits rdf:resource="https://web.resource.org/cc/Reproduction"/>
+        <permits rdf:resource="https://web.resource.org/cc/Distribution"/>
+        <requires rdf:resource="https://web.resource.org/cc/Notice"/>
+        <requires rdf:resource="https://web.resource.org/cc/Attribution"/>
+        <permits rdf:resource="https://web.resource.org/cc/DerivativeWorks"/>
+
+    </License>
+</rdf:RDF>
+-->  <div data-tistory-react-app="SupportButton"></div>
+</div>
+ 										
+				</div>
+				
+					<div class="entry-tag"> <a href="https://divheer.tistory.com/tag/deque" rel="tag">deque</a>, <a href="https://divheer.tistory.com/tag/Python" rel="tag">Python</a>, <a href="https://divheer.tistory.com/tag/%EB%8D%B0%ED%81%AC" rel="tag">데크</a>, <a href="https://divheer.tistory.com/tag/%EB%B0%B1%EC%A4%80" rel="tag">백준</a>, <a href="https://divheer.tistory.com/tag/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" rel="tag">알고리즘</a>, <a href="https://divheer.tistory.com/tag/%ED%8C%8C%EC%9D%B4%EC%8D%AC" rel="tag">파이썬</a> </div>
+				
+				<!--카테고리 글 더보기-->
+				
+					<div class="area_related_wrap">
+						<div class="related_table">
+							<div class="related_header">
+								<div class="area_title_wrap">
+									<strong class="tit_related">알고리즘/Baekjoon 관련 글</strong>
+								</div>
+								<div class="area_btn_more_wrap">
+									<a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Baekjoon" class="link_more">더 보기</a>
+								</div>
+							</div>
+						</div>
+						<ul class="list_related">
+							
+								<li class="thumb_type list_item">
+									<a href="https://divheer.tistory.com/383?category=1231180" class="area_info">
+										<!--카테고리 글 썸네일-->
+										<!--
+                            <div class="area_thumb">
+                                
+                            </div>
+                            -->
+										<div class="title">
+											<span>[백준] 11866번 요세푸스 문제 0 | 파이썬 Python</span>
+										</div>
+										<div class="list_date">
+											<span>2025.01.29</span>
+										</div>
+									</a>
+								</li>
+							
+								<li class="thumb_type list_item">
+									<a href="https://divheer.tistory.com/382?category=1231180" class="area_info">
+										<!--카테고리 글 썸네일-->
+										<!--
+                            <div class="area_thumb">
+                                
+                            </div>
+                            -->
+										<div class="title">
+											<span>[백준] 2164번 카드2 | 파이썬 Python</span>
+										</div>
+										<div class="list_date">
+											<span>2025.01.28</span>
+										</div>
+									</a>
+								</li>
+							
+								<li class="thumb_type list_item">
+									<a href="https://divheer.tistory.com/380?category=1231180" class="area_info">
+										<!--카테고리 글 썸네일-->
+										<!--
+                            <div class="area_thumb">
+                                
+                            </div>
+                            -->
+										<div class="title">
+											<span>[백준] 12789번 도키도키 간식드리미 | 파이썬 Python</span>
+										</div>
+										<div class="list_date">
+											<span>2025.01.26</span>
+										</div>
+									</a>
+								</li>
+							
+								<li class="thumb_type list_item">
+									<a href="https://divheer.tistory.com/379?category=1231180" class="area_info">
+										<!--카테고리 글 썸네일-->
+										<!--
+                            <div class="area_thumb">
+                                
+                            </div>
+                            -->
+										<div class="title">
+											<span>[백준] 4949번 균형잡힌 세상 | 파이썬 Python</span>
+										</div>
+										<div class="list_date">
+											<span>2025.01.25</span>
+										</div>
+									</a>
+								</li>
+							
+						</ul>
+					</div>
+				
+				
+				<div class="post-reply">									
+					
+							<div data-tistory-react-app="Namecard"><div class="tt_box_namecard"><div class="tt_cont"><a class="tt_tit_cont" href="https://divheer.tistory.com/">매일 작성하는 개발 일기</a><a class="tt_desc" href="https://divheer.tistory.com/">Small Steps make a Big Difference.</a><button class="tt_btn_subscribe" data-tiara-action-name="프로필영역 구독 버튼_클릭" data-tiara-copy="구독하기" type="button"><span class="tt_txt_g">구독하기</span><span class="tt_img_area_reply tt_ico_cross"></span></button></div><a class="tt_wrap_thumb" href="https://divheer.tistory.com/"><span class="tt_thumb_g" style="background-image: url(&quot;https://img1.daumcdn.net/thumb/S56x56/?scode=mtistory2&amp;fname=https%3A%2F%2Ftistory1.daumcdn.net%2Ftistory%2F5728747%2Fattach%2F5d20f8ecd9684b2ca27e7a84d51c4056&quot;);"></span></a></div></div><div id="entry381Comment">
+								<div data-tistory-react-app="Comment"><div class="tt-comment-cont"><div class="tt-box-total"><span class="tt_txt_g">댓글</span><span class="tt_num_g">0</span></div><div class="tt-area-reply"></div><form style="margin: 0px;"><div class="tt-area-write"><div class="tt-box-thumb"><span class="tt-thumbnail" style="background-image: url(&quot;https://img1.daumcdn.net/thumb/C44x44@2x.fwebp.q85/?fname=https%3A%2F%2Ft1.daumcdn.net%2Ftistory_admin%2Fstatic%2Fmanage%2Fimages%2Fr3%2Fdefault_S.png&quot;);"></span></div><div class="tt_wrap_write"><div class="tt-box-account"><input maxlength="32" placeholder="이름" title="이름" type="text" value=""><input maxlength="12" placeholder="비밀번호" title="비밀번호" type="password" value=""></div><div class="tt-box-textarea"><div class="tt-inner-g"><div class="tt-cmt" contenteditable="true" data-placeholder="내용을 입력하세요."></div></div></div><div class="tt-box-write"><label class="tt-xe-label"><input id="secret" type="checkbox"><span class="tt_img_area_reply tt-xe-input-helper"></span><span class="tt-xe-label-text">비밀글</span></label><button class="tt-btn_register" disabled="" type="submit" data-tiara-action-name="댓글등록_클릭" data-tiara-custom="role=guest&amp;type=comment&amp;secret=false">등록</button></div></div></div></form></div></div>
+															
+							</div>
+
+
+							<script>
+								var sortComment="comment-desc";if("comment-desc"==sortComment){var sortCommentcss=".post-reply .tt-list-reply { display: flex; flex-direction: column-reverse; }.post-reply .tt-list-reply li.tt-item-reply:first-child {order:1}.post-reply .tt-list-reply li.tt-item-reply.rp_general:first-child {order:0}",styleElement=document.createElement("style");styleElement.innerHTML=sortCommentcss;document.head.appendChild(styleElement)}var writeCommentPosotion="write-Comment-top";
+								"write-Comment-top"==writeCommentPosotion&&(sortCommentcss=".post-reply .tt-comment-cont{ display: flex; flex-direction: column-reverse; } .post-reply .tt-box-total {order:1;}",styleElement=document.createElement("style"),styleElement.innerHTML=sortCommentcss,document.head.appendChild(styleElement));
+							</script>				
+															
+				</div>
+				<script>	
+				    																	
+					
+						var contentContainer=document.querySelector(".e-content.post-content");
+						if(contentContainer){var tocSpace=document.createElement("div");tocSpace.classList.add("toc-space");contentContainer.insertBefore(tocSpace,contentContainer.firstChild);var headings=contentContainer.querySelectorAll("h2, h3");if(headings.length>0){var tocContainer=document.createElement("div");tocContainer.classList.add("toc-wrap");var ulContainer=document.createElement("ul");ulContainer.classList.add("toc");headings.forEach(function(heading,index){var tocItem=document.createElement("li");tocItem.classList.add("toc-item");
+						var tocLink=document.createElement("a");tocLink.href="#section-"+index;tocLink.textContent=heading.textContent;if(heading.tagName==="H2")tocItem.classList.add("h2");else if(heading.tagName==="H3")tocItem.classList.add("h3");tocItem.appendChild(tocLink);ulContainer.appendChild(tocItem);heading.id="section-"+index;tocLink.addEventListener("click",function(event){event.preventDefault();var target=document.querySelector(tocLink.getAttribute("href"));if(target){var scrollOffset= (window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth) >= 450 ? 120 : 80;var targetPosition=
+						target.offsetTop+scrollOffset;window.scrollTo({top:targetPosition,behavior:"smooth"})}})});var tocTitle=document.createElement("strong");tocTitle.textContent="\ubaa9\ucc28";	var tocIcon = document.createElement("div");tocIcon.classList.add("toc-icon");var tocTitleContainer=document.createElement("div");tocTitleContainer.classList.add("toc-title");tocTitleContainer.appendChild(tocIcon);tocTitleContainer.appendChild(tocTitle);tocContainer.appendChild(tocTitleContainer);tocContainer.appendChild(ulContainer);tocSpace.appendChild(tocContainer)}};
+					
+
+					
+						function createFloatingTOC(){var a=document.querySelector(".e-content.post-content");if(a){var n=a.querySelectorAll("h2, h3");if(0!==n.length){var h=document.createElement("div");h.classList.add("floating-toc-space");a.insertBefore(h,a.firstChild);var b=document.createElement("div");b.classList.add("toc-wrap","floating");var k=document.createElement("ul");k.classList.add("toc");a=document.createElement("div");a.textContent="\ubaa9\ucc28";a.classList.add("toc-title-strong");var c=document.createElement("div");
+						c.classList.add("toc-title");var l=document.createElement("div");l.classList.add("floating-toc-icon");var f=document.createElement("div");f.classList.add("toc-close-icon");f.textContent="x";l.onclick=function(){b.classList.add("active")};f.onclick=function(){b.classList.remove("active")};c.appendChild(l);c.appendChild(a);c.appendChild(f);b.appendChild(c);n.forEach(function(g,p){var d=document.createElement("li");d.classList.add("toc-item");var e=document.createElement("a");e.href="#section-"+p;e.textContent=
+						g.textContent;"H2"===g.tagName?d.classList.add("h2"):"H3"===g.tagName&&d.classList.add("h3");d.appendChild(e);k.appendChild(d);g.id="section-"+p;e.addEventListener("click",function(m){m.preventDefault();(m=document.querySelector(e.getAttribute("href")))&&window.scrollTo({top:m.offsetTop+(450<=(window.innerWidth||document.documentElement.clientWidth||document.body.clientWidth)?120:80),behavior:"smooth"})})});b.appendChild(k);h.appendChild(b)}}}
+						function tOChandleScroll(){200<=window.scrollY&&(createFloatingTOC(),window.removeEventListener("scroll",tOChandleScroll))}window.addEventListener("scroll",tOChandleScroll);
+					
+
+						document.addEventListener("DOMContentLoaded",function(){var g=document.querySelectorAll(".e-content.post-content img");g.forEach(function(a,b){var l=a.getAttribute("alt"),h=a.getAttribute("data-filename");l||a.setAttribute("alt",h?h:"etc-image-"+b)});if(0<g.length){var k=function(){if(0<window.pageYOffset){var a=blockedStylesheets.find(function(b){return b.href.includes("lightbox")});a&&loadStylesheet(a.href);(a=blockedScripts.find(function(b){return b.src.includes("lightbox")}))&&loadScript(a.src).then(function(){var b=
+						lightbox;b.options.fadeDuration=200;b.options.resizeDuration=200;b.options.wrapAround=!1;b.options.albumLabel="%1 / %2"})["catch"](function(){});window.removeEventListener("scroll",k)}};window.addEventListener("scroll",k,{passive:!0})}var c=document.getElementById("widen-btn"),d=document.getElementById("original-btn"),e=document.querySelector("#container #main #sidebar"),f=document.querySelector(".h-entry .content-width");c&&d&&e&&f&&(c.addEventListener("click",function(a){a.preventDefault();e.style.display=
+						"none";c.style.display="none";d.style.display="inline-block";f.classList.add("wide")}),d.addEventListener("click",function(a){a.preventDefault();e.style.display="block";d.style.display="none";c.style.display="inline-block";f.classList.remove("wide")}))});
+				</script>									
+			
+		</div>
+	</section>
+
+              
+          
+						<!-- 태그 -->
+						
+						<!-- 방명록 -->
+						
+						<!-- 공지사항 -->
+						
+						<!-- 보호글 -->
+						
+						<!-- 검색 결과가 없는 경우 -->
+						
+						 
+									
+						<div class="paging-line"></div>
+					</div>
+					<!--content-End--><aside id="sidebar" class="left">
+						
+								<div class="module module-category" id="sidebar-category">
+									<div style="padding: 0px 10px 0px 15px; display: flex; align-items: center;">
+										<a href="https://github.com/heereal" target="_blank" title="깃허브 링크로 이동">
+												<img width="29" height="29" src="./큐_답변_파이썬 Python_files/github-logo.png" alt="GitHub Link">
+										</a>
+										<a href="https://litt.ly/heemang_dev" target="_blank" title="포트폴리오 링크로 이동" style="margin-left: 8px;">
+  										<img width="30" height="30" src="./큐_답변_파이썬 Python_files/portfolio-icon3.png" alt="포트폴리오 링크">
+										</a>
+									</div>
+								</div>
+							
+								<!-- 카테고리 -->
+								<div class="module module-category" id="sidebar-category">
+									<a href="https://divheer.tistory.com/category">
+										<div class="module-title">
+											<span>전체 카테고리</span>
+										</div>
+									</a>
+									<div class="module-content tt-cate"> <ul class="tt_category"><li class=""><a href="https://divheer.tistory.com/category" class="link_tit"> 분류 전체보기 <span class="c_cnt">(594)</span> </a>
+  <ul class="category_list"><li class=""><a href="https://divheer.tistory.com/category/JavaScript" class="link_item"> JavaScript <span class="c_cnt">(39)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/Flutter" class="link_item"> Flutter <span class="c_cnt">(25)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/HTML%20CSS" class="link_item"> HTML CSS <span class="c_cnt">(2)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98" class="link_item"> 알고리즘 <span class="c_cnt">(334)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Programmers" class="link_sub_item"> Programmers <span class="c_cnt">(170)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98/Baekjoon" class="link_sub_item"> Baekjoon <span class="c_cnt">(164)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://divheer.tistory.com/category/CS" class="link_item"> CS <span class="c_cnt">(11)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://divheer.tistory.com/category/CS/%EC%BB%B4%ED%93%A8%ED%84%B0%20%EA%B5%AC%EC%A1%B0" class="link_sub_item"> 컴퓨터 구조 <span class="c_cnt">(5)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/CS/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC" class="link_sub_item"> 네트워크 <span class="c_cnt">(6)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD" class="link_item"> 스파르타코딩클럽 <span class="c_cnt">(166)</span> </a>
+  <ul class="sub_category_list"><li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD/%EB%82%B4%EC%9D%BC%EB%B0%B0%EC%9B%80%EC%BA%A0%ED%94%84" class="link_sub_item"> 내일배움캠프 <span class="c_cnt">(152)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD/%EC%9B%B9%EA%B0%9C%EB%B0%9C%20%EC%A2%85%ED%95%A9%EB%B0%98" class="link_sub_item"> 웹개발 종합반 <span class="c_cnt">(9)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%EC%8A%A4%ED%8C%8C%EB%A5%B4%ED%83%80%EC%BD%94%EB%94%A9%ED%81%B4%EB%9F%BD/%EC%95%B1%EA%B0%9C%EB%B0%9C%20%EC%A2%85%ED%95%A9%EB%B0%98" class="link_sub_item"> 앱개발 종합반 <span class="c_cnt">(5)</span> </a></li>
+</ul>
+</li>
+<li class=""><a href="https://divheer.tistory.com/category/%EA%B0%9C%EB%B0%9C%20%EA%B8%B0%EB%A1%9D%EC%9E%A5" class="link_item"> 개발 기록장 <span class="c_cnt">(8)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8" class="link_item"> 프로젝트 <span class="c_cnt">(3)</span> </a></li>
+<li class=""><a href="https://divheer.tistory.com/category/%ED%9A%8C%EA%B3%A0" class="link_item"> 회고 <span class="c_cnt">(6)</span> </a></li>
+</ul>
+</li>
+</ul>
+ </div>
+								</div>
+							
+								<!--인기 글 -->
+								<div class="module popularPost">
+									<div class="module-title">
+										<span>인기 글</span>
+									</div>
+									
+										<div class="popularPost-list">
+											<a href="https://divheer.tistory.com/433">
+												<div class="popularPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																					
+																<img width="50" height="50" src="./큐_답변_파이썬 Python_files/saved_resource" alt="2025 팀네이버 Tech 신입 공채 CS/코딩테스트 후기">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="popular-right">
+															<span>2025 팀네이버 Tech 신입 공채 CS/코딩테스트 후기</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="popularPost-list">
+											<a href="https://divheer.tistory.com/562">
+												<div class="popularPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																					
+																<img width="50" height="50" src="./큐_답변_파이썬 Python_files/saved_resource(1)" alt="[GitHub] 이슈 &amp; PR 템플릿 생성하기 (예시 코드 포함)">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="popular-right">
+															<span>[GitHub] 이슈 &amp; PR 템플릿 생성하기 (예시 코드 포함)</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="popularPost-list">
+											<a href="https://divheer.tistory.com/488">
+												<div class="popularPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																					
+																<img width="50" height="50" src="./큐_답변_파이썬 Python_files/saved_resource(2)" alt="2025 팀네이버 신입 공채 1차 기술 역량 인터뷰 면접 후기">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="popular-right">
+															<span>2025 팀네이버 신입 공채 1차 기술 역량 인터뷰 면접 후기</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="popularPost-list">
+											<a href="https://divheer.tistory.com/528">
+												<div class="popularPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																					
+																<img width="50" height="50" src="./큐_답변_파이썬 Python_files/saved_resource(3)" alt="[Next.js] Google Analytics Data API (GA4) 연동해서 방문자⋯">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="popular-right">
+															<span>[Next.js] Google Analytics Data API (GA4) 연동해서 방문자⋯</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="popularPost-list">
+											<a href="https://divheer.tistory.com/301">
+												<div class="popularPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																					
+																<img width="50" height="50" src="./큐_답변_파이썬 Python_files/saved_resource(4)" alt="구글플레이 비공개 테스트 조건 충족 후 프로덕션 액세스 신청 통과 후기">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="popular-right">
+															<span>구글플레이 비공개 테스트 조건 충족 후 프로덕션 액세스 신청 통과 후기</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+								</div>
+							
+								<!-- 최근 글 -->
+								<div class="module recentPost">
+									<div class="module-title">
+										<span>최근 글</span>
+									</div>
+									
+										<div class="recentPost-list">
+											<a href="https://divheer.tistory.com/601">
+												<div class="recentPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																							
+																<img src="./큐_답변_파이썬 Python_files/saved_resource(5)" width="50" height="50" alt="[My Top 9 Books] 4시간만에 만든 프로젝트가 X 트렌드에 오르기까지">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="recent-right">
+															<span>[My Top 9 Books] 4시간만에 만든 프로젝트가 X 트렌드에 오르기까지</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="recentPost-list">
+											<a href="https://divheer.tistory.com/600">
+												<div class="recentPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																							
+																<img src="./큐_답변_파이썬 Python_files/saved_resource(6)" width="50" height="50" alt="[교정일기] 앱 출시 1년 만에 대규모 업데이트">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="recent-right">
+															<span>[교정일기] 앱 출시 1년 만에 대규모 업데이트</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="recentPost-list">
+											<a href="https://divheer.tistory.com/599">
+												<div class="recentPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																							
+																<img src="./큐_답변_파이썬 Python_files/saved_resource(7)" width="50" height="50" alt="슬랙과 Vercel 연동해서 배포 성공/실패 결과 알림받기">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="recent-right">
+															<span>슬랙과 Vercel 연동해서 배포 성공/실패 결과 알림받기</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="recentPost-list">
+											<a href="https://divheer.tistory.com/598">
+												<div class="recentPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																							
+																<img src="./큐_답변_파이썬 Python_files/saved_resource(8)" width="50" height="50" alt="[웹소설 캘린더] MAU 64명 → 2.5만 명, 사이드 프로젝트 성장기">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="recent-right">
+															<span>[웹소설 캘린더] MAU 64명 → 2.5만 명, 사이드 프로젝트 성장기</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+										<div class="recentPost-list">
+											<a href="https://divheer.tistory.com/597">
+												<div class="recentPost-info">
+													<div class="left-pop left">
+														<div class="left-rep-thumbnail no-img-icon">
+																							
+																<img src="./큐_답변_파이썬 Python_files/saved_resource(9)" width="50" height="50" alt="[프로그래머스/Lv.2] 전력망을 둘로 나누기 | 파이썬">
+															
+														</div>
+													</div>
+													<div class="right-pop left">
+														<div class="recent-right">
+															<span>[프로그래머스/Lv.2] 전력망을 둘로 나누기 | 파이썬</span>
+														</div>
+													</div>
+												</div>
+											</a>
+										</div>
+									
+								</div>
+							
+								<!-- 카운터 -->
+								<div class="module module-visitor">
+									<div class="module-title">
+										<span>전체 방문자</span>
+									</div>
+									<div class="module-content visitor">
+										<div class="visitor-row">
+											<span class="visitor-cell">오늘</span>
+											<span class="ff-h today visitor-date">11</span>
+										</div>
+										<div class="visitor-row">
+											<span class="visitor-cell">어제</span>
+											<span class="ff-h yesterday visitor-date">131</span>
+										</div>
+										<div class="visitor-row">
+											<span class="visitor-cell">전체</span>
+											<span class="ff-h total visitor-date">93,372</span>
+										</div>
+									</div>
+								</div>
+							
+					</aside>
+				</div>
+			</div>
+			<div class="footer-wrap">
+				<footer id="footer">
+					<div class="ft-al">Copyright © <a href="https://toyou101.tistory.com/">쭈미로운 생활</a> All rights reserved.</div>
+					<div class="ft-ac">Designed by <a href="https://toyou101.tistory.com/">JJuum</a></div>
+				</footer>
+			</div>
+		</div>
+	
+	<script>			
+		document.addEventListener("DOMContentLoaded",function(){function m(a,b){if(a.isIntersecting){if(a.target.classList.contains("post-reply")){var c=blockedStylesheets.find(function(d){return d.href.includes("comment")});c&&loadStylesheet(c.href);(c=blockedScripts.find(function(d){return d.src.includes("comment")}))&&loadScript(c.src).then(function(){var d=new Event("load");window.dispatchEvent(d)})["catch"](function(){})}else a.target.classList.contains("container_postbtn")?g||((c=blockedStylesheets.find(function(d){return d.href.includes("postBtn")}))&&
+		loadStylesheet(c.href),(c=blockedScripts.find(function(d){return d.src.includes("reaction-button-container")}))&&loadScript(c.src),a.target.style.visibility="visible",g=!0):"PRE"!==a.target.parentElement.tagName||"CODE"!==a.target.tagName||h||(loadStylesheet("//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/vs2015.min.css"),loadScript("//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js").then(function(){hljs.highlightAll();loadScript("//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.8.0/highlightjs-line-numbers.min.js").then(function(){hljs.initLineNumbersOnLoad()})["catch"](function(){})})["catch"](function(){}),
+		h=!0);b.unobserve(a.target)}}function k(){if(0<window.pageYOffset){var a=blockedScripts.find(function(b){return b.src.includes("googletagmanager.com/gtag/js?id")});a&&loadScript(a.src).then(function(){var b=document.createElement("script");b.innerHTML=blockedScriptContents[0].textContent;document.head.appendChild(b)})["catch"](function(){});window.removeEventListener("scroll",k)}}mutationObserver.disconnect();var h=!1,g=!1,l=!1,e=document.querySelectorAll(".post-reply, .container_postbtn, pre code"),
+		n=new IntersectionObserver(function(a,b){a.forEach(function(c){m(c,b)})},{root:null,rootMargin:"200px",threshold:.2});e.forEach(function(a){n.observe(a)});window.addEventListener("scroll",function(){var a=(document.body.scrollTop||document.documentElement.scrollTop)/(document.documentElement.scrollHeight-document.documentElement.clientHeight)*100,b=document.getElementById("progress");b&&(b.style.width=a+"%")},{passive:!0});var f=document.getElementById("header_wrap");f&&window.addEventListener("scroll",
+		function(){50<window.scrollY?f.classList.add("shrink"):f.classList.remove("shrink")},{passive:!0});(e=document.querySelector(".btn_topMenu"))&&e.addEventListener("click",function(a){a.stopPropagation();if(a=document.querySelector(".dropdown-content")){if(!l){var b=blockedScripts.find(function(c){return c.src.includes("menubar.min")});b&&loadScript(b.src);if(b=document.querySelector(".dropdown-profile_bg img"))b.src=b.dataset.src,b.style.display="block",b.removeAttribute("data-src");l=!0}a.classList.toggle("dropdown-content-toggle")}});
+		(e=document.querySelector(".btn_close"))&&e.addEventListener("click",function(a){a.stopPropagation();(a=document.querySelector(".dropdown-content"))&&a.classList.remove("dropdown-content-toggle")});document.querySelectorAll(".post_category_name").forEach(function(a){var b=a.textContent.trim().split("/")[1];b&&(a.textContent=b.trim())});document.querySelectorAll(".p-category").forEach(function(a){var b=a.textContent.split("/")[1];b&&(a.textContent=b.trim())});document.querySelectorAll("iframe").forEach(function(a){var b=
+		a.getAttribute("name");a.setAttribute("title",b||"inner iframe")});(e=document.getElementById("content"))&&e.classList.add("show");window.addEventListener("scroll",k,{passive:!0})});
+	</script>
+	<!-- Inline code -->
+	<script>
+			let textNodes = document.querySelectorAll("div.tt_article_useless_p_margin.contents_style > *:not(figure):not(pre)");
+			textNodes.forEach(node => {
+					node.innerHTML = node.innerHTML.replace(/`(.*?)`/g, '<code class="inline-code">$1</code>');
+			});
+	</script>
+<div class="#menubar menu_toolbar toolbar_rb">
+  <h2 class="screen_out">티스토리툴바</h2>
+</div>
+<div class="#menubar menu_toolbar "><div class="btn_tool btn_tool_type1" id="menubar_wrapper" data-tistory-react-app="Menubar"><button class="btn_menu_toolbar btn_menu_type2"><span class="img_common_tistory ico_tistory_sign">관리메뉴열기</span></button><div class="header_layer layer_tool" style="display: none;"><div class="inner_header_layer"><h2 class="screen_out">개인정보</h2><ul class="list_toolbar"><li><a class="link_list" href="https://www.tistory.com/">티스토리 홈</a></li><li><a class="link_list" href="https://www.tistory.com/forum">포럼</a></li><li><a class="link_list" href="https://divheer.tistory.com/381#">로그인</a></li></ul></div></div></div></div>
+<div class="layer_tooltip">
+  <div class="inner_layer_tooltip">
+    <p class="desc_g"></p>
+  </div>
+</div>
+<div id="editEntry" style="position:absolute;width:1px;height:1px;left:-100px;top:-100px"></div>
+
+
+                <div style="margin:0; padding:0; border:none; background:none; float:none; clear:none; z-index:0"></div>
+<script type="text/javascript" src="./큐_답변_파이썬 Python_files/common.js.다운로드" async=""></script>
+
+                
+                <script>window.tiara = {"svcDomain":"user.tistory.com","section":"글뷰","trackPage":"글뷰_보기","page":"글뷰","key":"5728747-381","customProps":{"userId":"0","blogId":"5728747","entryId":"381","role":"guest","trackPage":"글뷰_보기","filterTarget":false},"entry":{"entryId":"381","entryTitle":"[백준] 18258번 큐 2 | 파이썬 Python","entryType":"POST","categoryName":"알고리즘/Baekjoon","categoryId":"1231180","serviceCategoryName":"IT 인터넷","serviceCategoryId":401,"author":"3617478","authorNickname":"Horang_","blogNmae":"매일 작성하는 개발 일기","image":"kage@dvO02v/btsL1igrcYu/FoK6K8rFWHNjgCVI4xiKdK","plink":"/381","tags":["deque","Python","데크","백준","알고리즘","파이썬"]},"kakaoAppKey":"3e6ddd834b023f24221217e370daed18","appUserId":"null","thirdProvideAgree":null}</script>
+<script type="module" src="./큐_답변_파이썬 Python_files/index(1).js.다운로드"></script>
+<script src="./큐_답변_파이썬 Python_files/polyfills-legacy(1).js.다운로드" nomodule="true" defer="true"></script>
+<script src="./큐_답변_파이썬 Python_files/index-legacy(1).js.다운로드" nomodule="true" defer="true"></script>
+
+                
+
+<div id="__phocus__" class="__phocus__" tabindex="-1"></div><div id="shortcutLayer" class="doc_help" style="display: none;"><button class="btn_doc_close">닫기</button>
+  <h2 class="title">단축키</h2>
+  <div class="content pc_platform">
+    <div class="container">
+      <h3 class="item_title">내 블로그</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>내 블로그 - 관리자 홈 전환</th>
+      <td>
+        <div class="pc">
+          <kbd>Q</kbd>
+        </div>
+        <div class="mac">
+          <kbd>Q</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>새 글 쓰기</th>
+      <td>
+        <div class="pc">
+          <kbd>W</kbd>
+        </div>
+        <div class="mac">
+          <kbd>W</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+      <h3 class="item_title">블로그 게시글</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>글 수정 (권한 있는 경우)</th>
+      <td>
+        <div class="pc">
+          <kbd>E</kbd>
+        </div>
+        <div class="mac">
+          <kbd>E</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>댓글 영역으로 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>C</kbd>
+        </div>
+        <div class="mac">
+          <kbd>C</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+    </div>
+    <div class="container">
+      <h3 class="item_title">모든 영역</h3>
+      <table class="item">
+        <tbody>
+        
+    <tr>
+      <th>이 페이지의 URL 복사</th>
+      <td>
+        <div class="pc">
+          <kbd>S</kbd>
+        </div>
+        <div class="mac">
+          <kbd>S</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>맨 위로 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>T</kbd>
+        </div>
+        <div class="mac">
+          <kbd>T</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>티스토리 홈 이동</th>
+      <td>
+        <div class="pc">
+          <kbd>H</kbd>
+        </div>
+        <div class="mac">
+          <kbd>H</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        
+    <tr>
+      <th>단축키 안내</th>
+      <td>
+        <div class="pc">
+          <kbd>Shift</kbd> + <kbd>/</kbd>
+        </div>
+        <div class="mac">
+          <kbd>⇧</kbd> + <kbd>/</kbd>
+        </div>
+      </td>
+    </tr>
+  
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <p class="info">* 단축키는 한글/영문 대소문자로 이용 가능하며, 티스토리 기본 도메인에서만 동작합니다.</p>
+  </div></body></html>
