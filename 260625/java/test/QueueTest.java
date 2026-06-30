@@ -2,7 +2,7 @@ package test;
 
 // FIFO(First In First Out, 선입선출)
 public class QueueTest extends ArrayTest {
-    int front_index;// 가장 앞
+    int front_index; // 가장 앞
     int back_index = -1; // 가장 뒤
 
     public QueueTest () {
